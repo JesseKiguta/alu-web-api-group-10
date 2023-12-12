@@ -6,8 +6,8 @@ We will source the API used in this project from [here](https://rapidapi.com/cat
 
 # Credit
 We want to credit the developers of the APIs we used in this section. The APIs were:
-- [matchilling](https://rapidapi.com/user/matchilling)'s Chuck Norris API, which can be found [here](https://rapidapi.com/matchilling/api/chuck-norris)
-- [fyhao](https://rapidapi.com/user/fyhao)'s Currency Exchange API, which can be found [here](https://rapidapi.com/fyhao/api/currency-exchange)
+- [matchilling](https://rapidapi.com/user/matchilling)'s Chuck Norris API, which can be found [here](https://rapidapi.com/matchilling/api/chuck-norris).
+- [fyhao](https://rapidapi.com/user/fyhao)'s Currency Exchange API, which can be found [here](https://rapidapi.com/fyhao/api/currency-exchange).
 
 Both APIs were free to use.
 
