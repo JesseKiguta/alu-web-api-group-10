@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(images/mountain.jpeg);
+    background-image: url(images/sky.webp);
    }
    
    .display-4 {
-    color: black;
+    color: white;
     margin-bottom: 16px;
     text-align: center;
    }
@@ -54,7 +54,7 @@ body {
    .currencyResult {
     margin-top: 16px;
     font-size: 24px;
-    color: #212529;
+    color: black;
    }
    
    .jokeIcon {
