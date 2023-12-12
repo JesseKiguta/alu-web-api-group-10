@@ -1,58 +1,70 @@
-/* general */
 body {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.APIContainer {
-    margin: 50px auto 150px auto;
-    padding: 10px 20px 10px 20px;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-    width: 40%;
-    min-width: 500px;
-    height: 20%;
-}
-
-.marginTopBottom {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/* Chuck Norris */
-.jokeContainer {
+    font-family: Arial, sans-serif;
+    background-image: url(images/mountain.jpeg);
+   }
+   
+   .display-4 {
+    color: black;
+    margin-bottom: 16px;
+    text-align: center;
+   }
+   
+   .APIContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #7e7878;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   
+   .jokeContainer,
+   .currencyContainer {
     display: flex;
     align-items: center;
-}
-
-.jokeTitle {
-    margin-left: 10px;
-}
-
-#joke {
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-#buttonGetJoke {
-    margin-left: auto;
-}
-
-/* Currency */
-.currencyContainer {
-    display: flex;
-}
-
-.currencyInput {
-    display: flex;
-    margin: 20px 0 20px 0px;
-}
-
-.currencyResult {
-    margin: auto;
-}
-
-#buttonCurrency {
+    justify-content: space-between;
+   }
+   
+   .jokeTitle {
+    color: #212529;
+   }
+   
+   .jokeContainer button,
+   .currencyContainer button {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 8px;
+   }
+   
+   .jokeContainer button:hover,
+   .currencyContainer button:hover {
+    background-color: #0056b3;
+   }
+   
+   .marginTopBottom {
+    margin-top: 16px;
+    margin-bottom: 16px;
+   }
+   
+   .currencyResult {
+    margin-top: 16px;
+    font-size: 24px;
+    color: #212529;
+   }
+   
+   .jokeIcon {
+    width: 64px;
+    height: 64px;
+   }
+   
+   .randomImage {
     width: 100%;
-}
-
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+   }
